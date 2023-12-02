@@ -1,3 +1,8 @@
+body {
+    background-color: #1E252B;
+    font-family: 'Poppins', sans-serif;
+}
+
 .bofore-content::before {
     content: url('image/logo.png');
     max-width: 100%;
@@ -20,11 +25,9 @@
 
 .mr-auto-btn {
     margin-left: auto;
+    padding-right: 20px;
 }
 
-.footer-nav {
-    background-color: #1E252B;
-}
 
 .style-nav {
     font-family: 'Poppins',sans-serif;
@@ -52,4 +55,190 @@
     height: 48px;
     border-radius: 8px;
     border: none;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 70px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.9);
+    padding-top: 100px;
+}
+
+.text-p-section_1 {
+    font-family: 'Poppins',sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.input-section_1 {
+    width: 497.66px;
+    height: 64px;
+    border-radius: 15px;
+    background: linear-gradient(0deg, #283036, #283036), linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+    border: 1.5px solid;
+    border-image-source: linear-gradient(90.89deg, rgba(255, 255, 255, 0.1) -1.67%, rgba(255, 255, 255, 0) 103.73%);
+    font-family: 'Poppins',sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    color:rgba(255, 255, 255, 0.38);
+    padding-left: 50px;
+}
+
+.btn-input {
+    width: 130.43px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: rgba(255, 110, 48, 1);
+    color:rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.text-field__icon {
+    position: relative;
+}
+
+.text-field__icon_search::before {
+    width: 1rem;
+    background-image: url('image/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-field__icon:before {
+    content: '';
+    position: absolute;
+    display: flex;
+    align-items: center;
+    bottom: 0;
+    left: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-input {
+    position: absolute;
+    top: 32px;
+    right: 150px;
+    transform: translateY(-50%);
+}
+
+.mar-top-144 {
+    margin-top: 144px;
+}
+
+.image-social-1 {
+    padding-right: 20px;
+}
+
+.image-social-2 {
+    padding-right: 20px;
+}
+
+h2 {
+    
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    padding-top: 200px;
+}
+
+.p-text-section_2 {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.55);
+    margin-bottom: 100px;
+}
+
+
+
+.name-figma {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.78);
+    margin-bottom: 1px;   
+}
+
+.text-gold {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 165, 55, 0.55);
+}
+
+.pad-l-box {
+    padding-left: 30px;
+}
+
+.text-box-text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.55);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.visit {
+    width: 106px;
+    height: 42px;
+    border-radius: 8px;
+    background-color: rgba(30, 37, 43, 1);
+    border: none;
+    color:rgba(255, 255, 255, 0.55);
+    margin-left: auto;
+}
+
+.like {
+    width: 42px;
+}
+
+.load {
+    margin-left: 10px;
+    width: 42px;
+}
+
+.w-h-294_392 {
+    height: 294px;
+    width: 392px;
+}
+
+.w-h-294_392:hover {
+    border-radius: 15px;
+    background: linear-gradient(0deg, rgba(40, 48, 54, 0.6), rgba(40, 48, 54, 0.6)),
+    linear-gradient(118.49deg, rgba(255, 255, 255, 0.08) -2.11%, rgba(255, 255, 255, 0) 28.55%, rgba(255, 255, 255, 0.05) 44.69%, rgba(255, 255, 255, 0) 96.78%);
+    border: 2px solid;
+    border-image-source: linear-gradient(118.49deg, rgba(255, 255, 255, 0.08) -2.11%, rgba(255, 255, 255, 0) 28.55%, rgba(255, 255, 255, 0.05) 44.69%, rgba(255, 255, 255, 0) 96.78%);
+    cursor: pointer;
+
+    .visit {
+        background-color: rgba(255, 110, 48, 1);
+        color:rgba(255, 255, 255, 1);
+    }
+}
+
+.section_4 {
+    margin-top: 100px;
 }
