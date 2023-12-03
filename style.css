@@ -19,9 +19,15 @@ body {
     
 }
 
+.bofore-content:hover {
+    color:rgba(255, 255, 255, 0.55);
+}
+
 .mr-auto-logo {
     margin-right: auto;
 }
+
+
 
 .mr-auto-btn {
     margin-left: auto;
@@ -40,6 +46,10 @@ body {
 }
 
 .style-nav:hover {
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.style-nav:active {
     color: rgba(255, 255, 255, 0.55);
 }
 
@@ -458,4 +468,81 @@ h4 {
 
 .btn-section-10:active {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h6 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.ul-list-footer li {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+    list-style-type: none;
+}
+
+.ul-list-footer {
+    padding-left: 0;
+}
+
+.footer {
+    margin-top: 200px;
+    border-top: 0.5px solid rgba(255, 255, 255, 0.15);
+    padding-top: 50px;
+}
+
+.mar-top-indicator {
+    margin-bottom: -40px;
+}
+
+.text-footer-logo {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.55);
+}
+
+.p-text-white-logo {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.9);
+    padding-top: 25px;
+}
+
+
+
+
+
+
+
+.typing-demo {
+    width: 20ch;
+    animation: typing 3s steps(22), blink .3s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    text-align: center;
+}
+  
+@keyframes typing {
+    from {
+      width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+      border-color: transparent;
+    }
 }
