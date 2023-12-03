@@ -242,3 +242,45 @@ h2 {
 .section_4 {
     margin-top: 100px;
 }
+
+.btn-load {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color:rgba(255, 110, 48, 1);
+    width: 184px;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: linear-gradient(0deg, #1E252B, #1E252B),linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+}
+
+.section_5 {
+    margin-top: 100px;
+}
+
+.section_6 {
+    margin-top: 200px;
+}
+
+.trusted {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding-bottom: 55px;
+    padding-top: 50px;
+}
+
+.container-box {
+    width: 1224px;
+    height: 253px;
+    border-radius: 25px;
+    background: linear-gradient(0deg, rgba(44, 53, 61, 0.2), rgba(44, 53, 61, 0.2)),
+    linear-gradient(92.39deg, rgba(255, 255, 255, 0.05) -4.6%, rgba(255, 255, 255, 0) 96.79%);
+    border: 2px solid;
+    border-image-source: linear-gradient(92.39deg, rgba(255, 255, 255, 0.05) -4.6%, rgba(255, 255, 255, 0) 96.79%); 
+}
